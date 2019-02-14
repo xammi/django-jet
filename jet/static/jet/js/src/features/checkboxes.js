@@ -11,9 +11,9 @@ Checkboxes.prototype = {
             : this.uniqueCheckboxIdPrefix + this.uniqueCheckboxIdCounter++;
 
         $checkbox.attr('id', checkboxId);
-        $('<label>')
-            .attr('for', checkboxId)
-            .insertAfter($checkbox);
+        //$('<label>')
+        //    .attr('for', checkboxId)
+        //    .insertAfter($checkbox);
     },
     addLabelToCheckboxes: function() {
         var self = this;
